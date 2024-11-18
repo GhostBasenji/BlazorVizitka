@@ -396,3 +396,10 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+
+# Keep static assets if needed
+!wwwroot/index.html
+!wwwroot/favicon.ico
+!wwwroot/css/*
+!wwwroot/js/*
